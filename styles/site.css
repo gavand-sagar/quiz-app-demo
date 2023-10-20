@@ -1,0 +1,77 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(48, 149, 212);
+}
+*{
+    box-sizing: border-box;
+}
+
+
+
+.app-name{
+    text-align: center;
+}
+.option-buttons-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.option-buttons-container>button{
+    width: 200px;
+    background-color: rgb(20, 20, 55);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+.question-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.question{
+    background-color:  rgb(20, 20, 55);
+    width: 70%;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.options-list{
+    line-height: 2.5;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.continue-btn{
+    background-color: transparent;
+    color: white;
+    height: 40px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 5px solid rgba(1, 114, 180, 0.513);
+    border-radius: 10px;
+}
+
+.timer{
+    font-size: 3rem;
+    background-color: rgb(20, 20, 55);
+    color: white;
+    position: fixed;
+    top:0;
+    right:0;
+    margin: 15px;
+}
